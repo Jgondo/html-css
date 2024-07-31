@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+       
+       @font-face {
+        font-family: 'cakecafe';
+        src: url('fontes/cakecafe.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+       
+       body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: white;
+        }
+
+        header  {
+            font-family: 'cakecafe';
+            font-size: xx-large;
+            background-color: #002642;
+            color:#D4C2AD;;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: #EFDFCC;
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.459);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: 
+            #002642;
+            font-weight: bold;
+            margin-right: 60px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+
+        main {
+            background-color: #875053;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }     
+        
+        article {
+            background-color: #EFDFCC;
+            padding: 5px;
+        }
+
+        
+        article > aside {
+            background-color: #D4C2AD;
+
+        }
+
+        footer {
+            background-color: #875053;
+            color:#002642;
+            font-weight: bolder;
+            text-align: center;
+            padding: 4px;
+            margin: 10px;
+        
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: #D4C2AD;
+            border-radius: 50%;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Confeitaria Lua Doce</h1>
+        <nav>
+           <a href="#">Link</a>
+           <a href="#">Link</a>
+           <a href="#">Link</a>
+           <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Mousses Tortas Bolos</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre lançamentos de doces</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nihil placeat aspernatur similique debitis, itaque beatae in sapiente atque perspiciatis necessitatibus, non fugiat cum molestias? Neque accusantium doloremque ex labore!</p>
+                <aside>
+                    <p>Artigo escrito por Luana Gondo</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo Cursoemvideo</p>
+    
+    </footer>
+
+   
+</body>
+</html>
